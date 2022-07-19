@@ -4,6 +4,7 @@ const person = {
 };
 
 const secondPerson = person; // referencia
+
 const thirdPerson  = {
     ...person
 };
